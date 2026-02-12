@@ -1,13 +1,12 @@
 {
   "name": "alegon-ai",
   "version": "1.0.0",
-  "main": "alegon_ai.js",
+  "main": "alegon_ai.cjs",
   "scripts": {
-    "start": "node alegon_ai.js"
+    "start": "node alegon_ai.cjs"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
-  },
-  "type": "module"
+    "openai": "^4.28.0"
+  }
 }
